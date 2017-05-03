@@ -13,6 +13,7 @@
 		7D6AA75C1EB9EE140086B608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6AA75A1EB9EE140086B608 /* Main.storyboard */; };
 		7D6AA75E1EB9EE140086B608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6AA75D1EB9EE140086B608 /* Assets.xcassets */; };
 		7D6AA7611EB9EE140086B608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6AA75F1EB9EE140086B608 /* LaunchScreen.storyboard */; };
+		7D6AA76A1EB9EF530086B608 /* NSString+pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6AA7691EB9EF530086B608 /* NSString+pinyin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		7D6AA75D1EB9EE140086B608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D6AA7601EB9EE140086B608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D6AA7621EB9EE140086B608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D6AA7681EB9EF530086B608 /* NSString+pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+pinyin.h"; sourceTree = "<group>"; };
+		7D6AA7691EB9EF530086B608 /* NSString+pinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+pinyin.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				7D6AA7551EB9EE140086B608 /* AppDelegate.m */,
 				7D6AA7571EB9EE140086B608 /* ViewController.h */,
 				7D6AA7581EB9EE140086B608 /* ViewController.m */,
+				7D6AA7681EB9EF530086B608 /* NSString+pinyin.h */,
+				7D6AA7691EB9EF530086B608 /* NSString+pinyin.m */,
 				7D6AA75A1EB9EE140086B608 /* Main.storyboard */,
 				7D6AA75D1EB9EE140086B608 /* Assets.xcassets */,
 				7D6AA75F1EB9EE140086B608 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 			files = (
 				7D6AA7591EB9EE140086B608 /* ViewController.m in Sources */,
 				7D6AA7561EB9EE140086B608 /* AppDelegate.m in Sources */,
+				7D6AA76A1EB9EF530086B608 /* NSString+pinyin.m in Sources */,
 				7D6AA7531EB9EE140086B608 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +318,7 @@
 				7D6AA7671EB9EE140086B608 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
