@@ -23,6 +23,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [self setupUI];
+    UIMenuController *menu = [[UIMenuController alloc]init];
 }
 
 
