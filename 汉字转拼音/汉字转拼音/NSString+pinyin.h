@@ -22,4 +22,9 @@
 ///拼音首字母 -> py
 - (NSString *)transformToPinyinFirstLetter;
 
+//转小写
+-(NSString *)transformTolowercase;
+
+//转大写
+-(NSString *)transformTouppercase;
 @end

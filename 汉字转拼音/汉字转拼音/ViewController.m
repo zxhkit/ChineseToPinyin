@@ -13,6 +13,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *one;
 @property (weak, nonatomic) IBOutlet UILabel *two;
 @property (weak, nonatomic) IBOutlet UILabel *three;
+@property (weak, nonatomic) IBOutlet UILabel *upper;
+@property (weak, nonatomic) IBOutlet UILabel *lower;
 
 @end
 
@@ -41,6 +43,8 @@
 - (IBAction)clickButton:(id)sender {
     _two.text = [_one.text transformToPinyin];
     _three.text = [_one.text transformToPinyinFirstLetter];
+    _upper.text = [_two.text transformTouppercase];
+    _lower.text = [_two.text transformTolowercase];
 }
 
 
