@@ -44,6 +44,12 @@
     
     return stringM.lowercaseString;
 }
-
-
+-(NSString *)transformTolowercase{
+    NSString *temp = [self lowercaseString];
+    return temp;
+}
+-(NSString *)transformTouppercase{
+    NSString *temp = [self uppercaseString];
+    return temp;
+}
 @end
